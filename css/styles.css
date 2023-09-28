@@ -161,10 +161,15 @@ a {
   text-decoration: none;
 }
 
+.icon {
+  width: 80%;
+  display: flex;
+  margin: 0 0 0 3rem;
+}
+
 .TP-icon {
+  display: flex;
   width: 50px;
-  margin-right: 60%;
-  margin-left: 3rem;
 }
 
 .nav-container {
@@ -187,8 +192,9 @@ a {
   font-weight: 700;
 }
 
+.active,
 .nav-link:hover {
-  color: #3fe9ff;
+  color: #4db5ff;
 }
 
 .container {
@@ -198,7 +204,12 @@ a {
   padding: 5% 15%;
 }
 
-.profile {
+header,
+section {
+  height: 100%;
+}
+
+.odd {
   background-color: #004476;
 }
 
@@ -262,6 +273,34 @@ a {
 
 .video>video {
   width: 90%;
+}
+
+.activities {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.activities-item {
+  margin: 5rem 2rem;
+}
+
+.activities-photo {
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.each-photo {
+  width: 60%;
+  border-radius: 1rem;
+  margin: 1rem 0 3rem 0;
+}
+
+.description {
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 .footer {
