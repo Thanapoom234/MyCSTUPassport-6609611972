@@ -462,12 +462,12 @@ section {
     padding: 0;
   }
 
-  .activities-item:first-child {
-    margin: 3rem 0;
-  }
-
   .activities-item {
     margin: 0 0;
+  }
+
+  .activities-item:first-child {
+    margin: 3rem 0;
   }
 
   .advisor {
